@@ -3,9 +3,9 @@ const ogs = require('open-graph-scraper')
 module.exports = {
 	list(){},
 
-	show(){},
+	store(){},
 
-	store(req, res){
+	show(req, res){
 		const options = {'url': req.body.url}
 		
 		ogs(options, function (error, results) {

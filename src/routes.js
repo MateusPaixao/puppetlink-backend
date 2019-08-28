@@ -4,6 +4,6 @@ const LinkController = require('./controllers/LinkController')
 
 const routes = new express.Router()
 
-routes.post('/main', LinkController.store)
+routes.post('/main', LinkController.show)
 
 module.exports = routes
