@@ -1,2 +1,1 @@
-# puppetlink-backend
-Puppetlink Backend
+# Puppetlink Backend
