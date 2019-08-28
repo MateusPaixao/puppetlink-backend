@@ -5,9 +5,17 @@
   "repository": "https://github.com/MateusPaixao/puppetlink-backend.git",
   "author": "mspaixao <mateus.borges.paixao@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "^4.17.1",
+    "open-graph-scraper": "^3.6.2",
     "puppeteer": "^1.19.0",
     "puppeteer-core": "^1.19.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
   }
 }
